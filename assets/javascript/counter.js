@@ -3,8 +3,6 @@ let incrementButton = document.querySelector("#increment");
 let decrementButton = document.querySelector("#decrement");
 let counter = document.querySelector("#counter");
 
-console.log("counter");
-
 incrementButton.addEventListener("click", function () {
   console.log("+ button clicked");
 });
